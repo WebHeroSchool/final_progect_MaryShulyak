@@ -674,7 +674,7 @@ margin-bottom: 35px;
    }
 
    .menu {
-     margin-right: 140px;
+     margin-right: 150px;
    }
 
    .menu__item {
@@ -687,7 +687,7 @@ margin-bottom: 35px;
    }
 
    .client__item {
-     padding-right: 20px;
+     padding-right: 25px;
    }
 
    .client__item:last-child {
@@ -699,7 +699,7 @@ margin-bottom: 35px;
    }
 
    .lang {
-     margin-left: 18px;
+     margin-left: 21px;
    }
 
    .logo {
@@ -929,10 +929,10 @@ margin-bottom: 35px;
 
   .logo {
     background: url(img/logo2.svg);
-    width: 156px;
+    width: 160px;
     height: 33px;
     margin-left: 35px;
-    margin-right: 500px;
+    margin-right: 450px;
   }
 
   .advert {
@@ -977,6 +977,11 @@ margin-bottom: 35px;
     font: normal 20px/28px 'GothamPro-Bold';
   }
 
+  .products__title_text {
+    margin-top: 0px;
+  }
+
+
   .products__black_img,
   .products__camel_img {
     width: 229px;
@@ -992,6 +997,7 @@ margin-bottom: 35px;
 
   .products__black_title,
   .products__camel_title {
+    margin-top: 25px;
     padding-top: 0px;
     font: normal 20px/15px 'GothamPro-Medium';
     width: 265px;
@@ -1052,10 +1058,11 @@ margin-bottom: 35px;
 
   .video__title {
     width: 100%;
-    padding-top: 35px;
+    padding-top: 40px;
     padding-left: 10px;
     font: normal 30px/37px 'GothamPro-Medium';
     text-align: center;
+    margin-bottom: 10px;
   }
 
   .video__description {
@@ -1063,6 +1070,7 @@ margin-bottom: 35px;
     font: normal 20px/24px 'GothamPro-Light';
     text-align: center;
     margin-bottom: 0px;
+    margin-top: 0px;
   }
 
   .video__content_img {
@@ -1077,7 +1085,6 @@ margin-bottom: 35px;
   }
 
   .story {
-    position: relative;
     background-color: #000;
     color: #fff;
     clip-path: polygon(0 0, 100% 0%, 100% 100%,0 98%);
@@ -1089,9 +1096,13 @@ margin-bottom: 35px;
   }
 
   .story__title {
-    padding-top: 40px;
+    padding-top: 65px;
     font: normal 20px/24px 'GothamPro-Light';
     margin-bottom: 0px;
+  }
+
+  .story__title_text {
+    margin-top: 0px;
   }
 
   .story__first_img,
@@ -1124,7 +1135,7 @@ margin-bottom: 35px;
     font: normal 20px/24px 'GothamPro-Light';
     width: 312px;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
   }
 
   .story__first_btn,
@@ -1194,14 +1205,17 @@ margin-bottom: 35px;
   }
 
    .account,
-   .service,
    .other {
      padding-top: 50px;
-     padding-right: 25px;
+     padding-right: 30px;
+  }
+
+  .service {
+    padding-right: 65px;
   }
 
   .account {
-    padding-left:20px;
+    padding-left: 25px;
   }
 
   .sing-up {
@@ -1216,15 +1230,15 @@ margin-bottom: 35px;
   .sing-up__btn {
      margin-left: 0px;
      padding: 8px 0px;
-     margin-bottom: 25px;
+     margin-bottom: 15px;
   }
 
   .sing-up__icons {
-    margin-left: 5px;
+      margin-left: -25px;
   }
 
   .end__txt {
-    margin-top: 25px;
+    margin-top: 15px;
   }
 }
 
@@ -1291,7 +1305,7 @@ margin-bottom: 35px;
   }
 
   .products__title {
-    padding-top: 20px;
+    padding-top: 35px;
     font-size: 13px;
     line-height: 16px;
   }
@@ -1336,9 +1350,15 @@ margin-bottom: 35px;
     height: 450px;
   }
 
+  .video__wrap {
+    padding-top: 0px;
+  }
+
   .video__title {
     font-size: 20px;
     line-height: 24px;
+    padding-top: 75px;
+    margin-bottom: 17px;
   }
 
   .video__description {
@@ -1355,7 +1375,7 @@ margin-bottom: 35px;
   }
 
   .story {
-    height: 870px;
+    height: 855px;
   }
 
   .story__title {
@@ -1387,7 +1407,7 @@ margin-bottom: 35px;
     line-height: 17px;
     width: 279px;
     margin-right: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .story__first_btn {
@@ -1414,10 +1434,12 @@ margin-bottom: 35px;
 
   .gallery {
     width: 280px;
-    margin-top: -355px;
+    margin-top: -350px;
   }
 
   .gallery__img_txt {
+    padding-top: 0px;
+    margin-bottom: 0px;
     font-size: 25px;
     padding-left: 0px;
     color: #E8E8E8;
@@ -1504,11 +1526,13 @@ margin-bottom: 35px;
   .service {
     order: 3;
     padding-top: 35px;
+    padding-left: 50px;
   }
 
   .other {
     order: 2;
     padding-top: 65px;
+    padding-left: 15px;
   }
 
   .other__title {
@@ -1561,7 +1585,8 @@ margin-bottom: 35px;
   }
 
   .advert {
-    background: url(img/modul3.png)
+    background: url(img/modul3.png);
+    height: 190px;
   }
 
   .advert__tittle {
@@ -1577,10 +1602,14 @@ margin-bottom: 35px;
     line-height: 19px;
   }
 
+  .products__title_text {
+    margin-bottom: 0px;
+  }
+
   .product__wrap {
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
   }
 
   .products__black {
@@ -1591,14 +1620,19 @@ margin-bottom: 35px;
 
   .products__black_img {
     padding-left: 50px;
+    margin-bottom: 15px;
   }
 
   .products__black_title {
+    margin-bottom: 10px;
+  }
+
+  .products__black_price {
     margin-bottom: 0px;
   }
 
   .color {
-    margin-top: -30px;
+    margin-top: -25px;
     padding-left: 190px;
   }
 
@@ -1611,13 +1645,13 @@ margin-bottom: 35px;
 
   .video__wrap {
     padding-left: 15px;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-right: 30px;
     padding-bottom: 30px;
   }
 
   .video__description {
-    line-height: 19px;
+    line-height: 18px;
   }
 
   .video__content_img {
@@ -1625,11 +1659,15 @@ margin-bottom: 35px;
   }
 
   .story__title {
-    padding-top: 45px;
+    padding-top: 55px;
   }
 
   .story__wrap {
     padding-left: 10px;
+  }
+
+  .story__first_img {
+    margin-bottom: 17px;
   }
 
   .story__first_text {
@@ -1637,7 +1675,8 @@ margin-bottom: 35px;
   }
 
   .gallery__img {
-    padding-top: 60px;
+    padding-top: 0px;
+    margin-bottom: 0px;
   }
 
   .gallery__img_txt {
@@ -1648,10 +1687,10 @@ margin-bottom: 35px;
   .gallery {
     margin-left: 0px;
     padding-left: 15px;
-    margin-top: -375px;
+    margin-top: -300px;
   }
   .footer {
-    margin-top: 245px;
+    margin-top: 260px;
   }
 
   .account__item,
@@ -1672,7 +1711,7 @@ margin-bottom: 35px;
   }
 
   .service {
-    padding-top: 32px;
+    padding-top: 30px;
   }
 
   .service__item {
