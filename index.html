@@ -8,7 +8,7 @@
   <script src="https://kit.fontawesome.com/fc9dca7c61.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body class="body">
   <div class="wrapper">
   <header class="header">
     <div class="logo"> </div>
@@ -28,8 +28,8 @@
     <nav class="client">
       <a class="client__item" href="#">SIGN IN</a>
       <a class="client__item" href="#">CART </a>
-      <span class="circle">1</span>
     </nav>
+    <div class="circle">1</div>
     <div class="lang"></div>
     <div class="burger">
       <span class="burger__line"></span>
@@ -72,7 +72,7 @@
       </ul>
     </div>
     <div class="products__grey">
-      <img src="img/product3.png" alt="">
+      <img  class="products__grey_img" src="img/product3.png" alt="">
       <h4 class="products__grey_title"> Mandel Smoke/Rust Axion  </h4>
       <p class="products__grey_price">$69.00</p>
       <ul class="color">
@@ -83,10 +83,10 @@
       </ul>
     </div>
     <div class="products__blue">
-      <img src="img/product4.png" alt="">
+      <img  class="products__blue_img" src="img/product4.png" alt="">
       <h5 class="products__blue_title"> Cloud/Electric Blue Axion  </h5>
       <p class="products__blue_price">$69.00</p>
-      <ul class="color">
+      <ul class="color__b">
         <li class="color__white"></li>
         <li class = "color__blue"></li>
         <li class="color__red"></li>
@@ -96,6 +96,7 @@
   </div>
   </section>
   <section class="video">
+    <div class="video_start"></div>
     <div class="video__wrap">
     <h1 class="video__title">Legendary footwear reborn</h1>
     <p class="video__description">We are a brand with a history and are relaunching for 2019. We’ve been a part of the skater’s family ever since it’s early teenage years. And now we presentate a new footwear collection.</p>
@@ -145,47 +146,51 @@
     <div class="footer__wrap">
     <div class="account">
       <h1 class="account__title">MY ACCOUNT</h1>
-      <a class="account__item" href="#">Login</a>
-      <a class="account__item" href="#">Wish List</a>
-      <a class="account__item" href="#">Order History</a>
-      <a class="account__item" href="#">Track order</a>
-      <a class="account__item" href="#">Gift cards</a>
+      <ul class="account__item">
+        <li><a class="account__item_a" href="#">Login</a></li>
+        <li><a class="account__item_a" href="#">Wish List</a></li>
+        <li><a class="account__item_a" href="#">Order History</a></li>
+        <li><a class="account__item_a" href="#">Track order</a></li>
+        <li><a class="account__item_a" href="#">Gift cards</a></li>
+      </ul>
     </div>
     <div class="service">
       <h2 class="service__title">CUSTOMER SERVICE</h2>
-      <a class="service__item" href="#">Contact us</a>
-      <a class="service__item" href="#">Help/FAQ</a>
-      <a class="service__item" href="#">Shipping</a>
-      <a class="service__item"  href="#">Returns</a>
-      <a class="service__item" href="#">Size guide</a>
-      <a class="service__item" href="#">Holiday shopping</a>
+      <ul class="service__item">
+        <li><a class="service__item_a" href="#">Contact us</a></li>
+        <li><a class="service__item_a" href="#">Help/FAQ</a></li>
+        <li><a class="service__item_a" href="#">Shipping</a></li>
+        <li><a class="service__item_a" href="#">Returns</a></li>
+        <li><a class="service__item_a" href="#">Size guide</a></li>
+        <li><a class="service__item_a" href="#">Holiday shopping</a></li>
+      </ul>
     </div>
     <div class="other">
       <h3 class="other__title">MISCELLANEOUS</h3>
-      <a class="other__item" href="#">About Us</a>
-      <a class="other__item" href="#">Careers</a>
-      <a class="other__item" href="#">Privacy Policy</a>
-      <a class="other__item" href="#">Terms & Conditions</a>
-      <a class="other__item" href="#">Ethical Policy</a>
-      <a class="other__item" href="#">Homepage US/UK</a>
+      <ul class="other__item">
+        <li><a class="other__item_a" href="#">About Us</a></li>
+        <li><a class="other__item_a" href="#">Careers</a></li>
+        <li><a class="other__item_a" href="#">Privacy Policy</a></li>
+        <li><a class="other__item_a" href="#">Terms & Conditions</a></li>
+        <li><a class="other__item_a" href="#">Ethical Policy</a></li>
+        <li><a class="other__item_a" href="#">Homepage US/UK</a></li>
+      </ul>
     </div>
     <div class="sing-up">
       <h4 class="sing-up__title">NEWSLETTER SIGN UP</h4>
       <p class="sing-up__txt">Get 10% Off Your Next Order!</p>
       <a class="sing-up__btn" href="#">SIGN UP</a>
-      <ul>
-        <li class="sing-up__icons">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-pinterest-p"></i>
-      </li>
+      <ul class="sing-up__icons">
+        <li class="sing-up__icons_a"><i class="fab fa-facebook-f"></i></li>
+        <li class="sing-up__icons_a"><i class="fab fa-twitter"></i></li>
+        <li class="sing-up__icons_b"><i class="fab fa-instagram"></i></li>
+        <li class="sing-up__icons_b"><i class="fab fa-pinterest-p"></i></li>
       </ul>
+    </div>
     </div>
     <div class="end">
       <p class="end__txt">© 2019 Axion. All rights reserved.</p>
     </div>
-  </div>
   </footer>
 </body>
 </html>
