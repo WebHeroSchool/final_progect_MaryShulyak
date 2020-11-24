@@ -1992,6 +1992,11 @@ padding-left: 30px;
     margin-bottom: 11px;
   }
 
+  .footer {
+    width: 98%;
+    margin-left: 3px;
+  }
+
   .footer__wrap {
     grid-template-columns: 320px;
   }
@@ -2001,6 +2006,7 @@ padding-left: 30px;
   }
 
   .account__title {
+    margin-bottom: 3px;
     padding-left: 105px;
   }
 
@@ -2015,6 +2021,7 @@ padding-left: 30px;
 
   .other__title {
     padding-left: 90px;
+    margin-bottom: 7px;
   }
 
   .other__item {
@@ -2031,10 +2038,6 @@ padding-left: 30px;
 
   .service__item {
     padding-right: 0px;
-  }
-
-  .other__title {
-    margin-bottom: 5px;
   }
 
   .sing-up {
