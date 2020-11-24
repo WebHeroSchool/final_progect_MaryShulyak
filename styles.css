@@ -1466,7 +1466,7 @@ padding-left: 30px;
 
   .advert {
     height: 189px;
-    background-size: 100%;
+    background: url(img/modul4.png);
   }
 
   .advert__tittle {
@@ -1507,6 +1507,10 @@ padding-left: 30px;
     line-height: 16px;
   }
 
+  .products__title_text {
+    margin-bottom: 0px;
+  }
+
   .product__wrap {
     grid-template-columns: 375px;
  }
@@ -1524,7 +1528,7 @@ padding-left: 30px;
     width: 162px;
     height: 145px;
     font-size: 105%;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
   }
 
   .products__black_title {
@@ -1660,7 +1664,7 @@ padding-left: 30px;
   }
 
   .gallery {
-    height: 558px;
+    height: 560px;
     background-image: linear-gradient(2deg, #fff 49%, #000 49%);
   }
 
