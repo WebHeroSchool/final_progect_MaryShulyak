@@ -199,6 +199,27 @@
   margin-bottom: 33px;
 }
 
+.products__black,
+.products__camel,
+.products__grey {
+  position:relative;
+}
+
+.products__black::before,
+.products__camel::before,
+.products__grey::before {
+  position: absolute;
+  display: inline-block;
+  content:"";
+  position: absolute;
+  width: 100px;
+  border: 1px solid #808080;
+  opacity: 0.2;
+  margin-left: 200px;
+  margin-top: 90px;
+  transform: rotate(-90deg);
+}
+
 .products__black_title,
 .products__camel_title,
 .products__grey_title,
@@ -787,6 +808,18 @@ padding-left: 30px;
     margin-bottom: 61px;
   }
 
+  .products__grey::before {
+    margin-left: 165px;
+  }
+
+  .products__black::before {
+    margin-left: 175px;
+  }
+
+  .products__camel::before {
+    margin-left: 170px;
+  }
+
   .products__title {
     padding-top: 50px;
   }
@@ -1094,6 +1127,11 @@ padding-left: 30px;
     display: none;
   }
 
+  .products__black::before,
+  .products__camel::before {
+    display: none;
+  }
+
   .products__title {
     font: normal 20px/28px 'GothamPro-Bold';
     padding-top: 65px;
@@ -1284,10 +1322,10 @@ padding-left: 30px;
 
   .story__first_text,
   .story__second_text {
-    font: normal 20px/24px 'GothamPro-Light';
+    font: normal 20px/25px 'GothamPro-Light';
     width: 312px;
     margin-top: 0px;
-    margin-bottom: 45px;
+    margin-bottom: 37px;
   }
 
   .story__first_btn,
@@ -1524,10 +1562,9 @@ padding-left: 30px;
   }
 
   .products__black_img {
-    padding-left: 106px;
+    padding-left: 110px;
     width: 162px;
     height: 145px;
-    font-size: 105%;
     margin-bottom: 35px;
   }
 
@@ -1661,6 +1698,7 @@ padding-left: 30px;
   .story__first_date {
     font-size: 15px;
     padding-left: 200px;
+    margin-top: -15px;
   }
 
   .gallery {
@@ -1942,12 +1980,13 @@ padding-left: 30px;
   .video__title {
     padding-top: 19px;
     padding-left: 27px;
+    margin-bottom: 15px;
   }
 
   .video__description {
     line-height: 18px;
     padding-left: 0px;
-    margin-bottom: 23px;
+    margin-bottom: 25px;
   }
 
   .video__content_img {
@@ -1969,6 +2008,10 @@ padding-left: 30px;
     padding-left: 20px;
   }
 
+  .story__first_date {
+    margin-top: -18px;
+  }
+
   .story__first_img {
     padding-bottom: 27px;
     margin-bottom: 0px;
@@ -1988,7 +2031,7 @@ padding-left: 30px;
 
   .gallery__img {
     padding-left: 5px;
-    padding-top: 26px;
+    padding-top: 27px;
   }
 
   .gallery__img_txt {
