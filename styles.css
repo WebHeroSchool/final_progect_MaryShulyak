@@ -703,7 +703,7 @@ padding-left: 30px;
   }
 
   .footer__wrap {
-    width: 100%;
+    padding-left: 50px;
   }
 
   .header  {
@@ -869,9 +869,9 @@ padding-left: 30px;
     padding-left: 5px;
   }
 
-    .products__blue_price {
-      padding-left: 9px;
-    }
+  .products__blue_price {
+    padding-left: 9px;
+  }
 
   .color {
     margin-top: -22px;
@@ -1016,7 +1016,8 @@ padding-left: 30px;
   }
 
   .footer__wrap {
-    padding-left: 125px;
+    width: 75%;
+    padding-left: 0px;
     padding-top: 13px;
   }
 
@@ -1396,7 +1397,7 @@ padding-left: 30px;
   }
 
   .footer__wrap {
-    padding-left: 50px;
+    width: 87%;
     grid-template-columns: 140px 160px 195px 200px;
     padding-top: 0px;
   }
@@ -1773,7 +1774,7 @@ padding-left: 30px;
     grid-template-columns: 375px;
     grid-template-rows: 180px 180px 190px 300px;
     margin-top: 0px;
-    padding-left: 0px;
+    width: 100%;
   }
 
   .account,
