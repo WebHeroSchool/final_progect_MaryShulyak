@@ -71,14 +71,15 @@
   padding-right: 37px;
   color: #000;
   text-decoration: none;
-  transition: opacity 0.5s;
+  transition: 0.5s;
 }
 
 .client__item:last-child {
   padding-right: 8px;
 }
 
-.menu__item:hover,
+.menu__item_a:hover,
+.menu__item_b:hover,
 .client__item:hover {
   opacity: 0.5;
 }
